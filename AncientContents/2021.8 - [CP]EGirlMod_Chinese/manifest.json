@@ -1,0 +1,13 @@
+{
+	"Name": "EGirlModDialogue",
+	"Author": "JayMushui",
+	"Version": "2.0.0",
+	"Description": "Dedicated to feminizing all male characters's dialogue",
+	"UniqueID": "JayMushui.EGirlMod",
+	"UpdateKeys": ["Nexus:5673"],
+	"ContentPackFor": 
+		{
+		"UniqueID": "Pathoschild.ContentPatcher",
+		},
+
+}

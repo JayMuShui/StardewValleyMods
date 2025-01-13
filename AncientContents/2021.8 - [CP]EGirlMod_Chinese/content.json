@@ -1,0 +1,429 @@
+﻿{
+	"Format": "1.4.0",
+	"Changes": [
+//Picture       
+	   {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "When": {"Language": "zh"},          
+		  "FromFile": "assets/LooseSprites/Cursors.zh-CN.png"
+       },
+       {
+          "Action": "Load",
+          "Target": "Characters/Alex",
+          "FromFile": "assets/Characters/Alex.png"
+       },	
+       {
+          "Action": "Load",
+          "Target": "Portraits/Alex",
+          "FromFile": "assets/Portraits/Alex.png"
+       },
+       {
+          "Action": "Load",
+          "Target": "Characters/Elliott",
+          "FromFile": "assets/Characters/Elliott.png"
+       },	
+       {
+          "Action": "Load",
+          "Target": "Portraits/Elliott",
+          "FromFile": "assets/Portraits/Elliott.png"
+       },
+       {
+          "Action": "Load",
+          "Target": "Characters/Harvey",
+          "FromFile": "assets/Characters/Harvey.png"
+       },	
+       {
+          "Action": "Load",
+          "Target": "Portraits/Harvey",
+          "FromFile": "assets/Portraits/Harvey.png"
+       },
+       {
+          "Action": "Load",
+          "Target": "Characters/Sam",
+          "FromFile": "assets/Characters/Sam.png"
+       },	
+       {
+          "Action": "Load",
+          "Target": "Portraits/Sam",
+          "FromFile": "assets/Portraits/Sam.png"
+       },
+       {
+          "Action": "Load",
+          "Target": "Characters/Sebastian",
+          "FromFile": "assets/Characters/Sebastian.png"
+       },	
+       {
+          "Action": "Load",
+          "Target": "Portraits/Sebastian",
+          "FromFile": "assets/Portraits/Sebastian.png"
+       },
+       {
+          "Action": "Load",          
+		  "Target": "Characters/Shane_JojaMart",
+          "FromFile": "assets/Characters/Shane_JojaMart.png"
+       },	
+       {
+          "Action": "Load",
+		 "Target": "Characters/Shane",
+          "FromFile": "assets/Characters/Shane.png"
+       },		   
+       {
+          "Action": "Load",
+   		  "Target": "Portraits/Shane",
+          "FromFile": "assets/Portraits/Shane.png"
+       },
+       {
+          "Action": "Load",
+          "Target": "Portraits/Vincent",
+          "FromFile": "assets/Portraits/Vincent.png"
+       },
+       {
+          "Action": "Load",
+          "Target": "Characters/Vincent",
+          "FromFile": "assets/Characters/Vincent.png"
+       },	
+//Strings
+{			   
+"Action": "EditData",
+"Target": "Strings/StringsFromCSFiles",
+"When": {"Language": "zh"},
+"Entries": {
+			"SocialPage.cs.11636": "（妻子）",
+		    "SocialPage.cs.11639": "（女朋友）",
+		    "SocialPage.cs.11642": "（前妻）",
+		   }
+},
+//Data
+{			   
+"Action": "EditData",
+"Target": "Data/SecretNotes",
+"When": {"Language": "zh"},
+"Entries": {
+			"7": "这是某人日记中的一页...^^...城里只有少数几个“老”单身女孩，她们都不适合！哈维确实有点焦虑和虚弱，但我知道她会成为一个忠诚专一的妻子。她喜欢咖啡和泡菜。^^艾利欧特有点纨绔子女的感觉，爱夸夸其谈，但她的下巴确实很好看。她喜欢蟹饼和石榴。^^谢恩有点邋遢和反社会。但我认为她粗糙的外表是一种防御机制，将她柔软的内心与世界隔离开来。她喜欢啤酒、比萨和胡椒爆米花。...........%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215" ,
+		   }
+},
+{			   
+"Action": "EditData",
+"Target": "Data/NPCDispositions",
+"When": {"Language": "zh"},
+"Entries": {
+			"Evelyn": "adult/polite/outgoing/positive/female/not-datable/George/Town/winter 20/George '丈夫' Alex '孙女'/JoshHouse 2 17/艾芙琳" ,
+		    "George": "adult/rude/neutral/negative/male/not-datable/Evelyn/Town/fall 24/Evelyn '妻子' Alex '孙女'/JoshHouse 16 22/乔治",
+		    "Jodi": "adult/polite/neutral/neutral/female/not-datable/Kent/Town/fall 11/Sam '长女' Vincent '老幺' Kent '丈夫'/SamHouse 4 5/乔迪",
+		    "Kent": "adult/neutral/shy/negative/male/not-datable/Jodi/Town/spring 4/Jodi '妻子' Sam '长女' Vincent '最小的男孩'/SamHouse 22 5/肯特",
+		    "Marnie": "adult/polite/outgoing/positive/female/not-datable/Lewis/Town/fall 18/Lewis '' Shane '侄女' Jas '侄女'/AnimalShop 12 14/玛妮",
+		    "Maru": "teen/neutral/outgoing/positive/female/datable/Harvey/Town/summer 10/Robin '妈妈' Demetrius '爸爸' Sebastian '同母异父的姐姐'/ScienceHouse 2 4/玛鲁",
+		    "Robin": "adult/neutral/outgoing/positive/female/not-datable/Demetrius/Town/fall 21/Demetrius '丈夫' Maru '女儿' Sebastian '儿子'/ScienceHouse 21 4/罗宾",
+		   }
+},
+{			   
+"Action": "EditData",
+"Target": "Data/mail",
+"When": {"Language": "zh"},
+"Entries": {
+			"Shane": "嗨^我觉得给你写信会很有趣。虽然我其实不怎么会写。^我随信附上了一个小礼物。别告诉其他人，这是很久以前我从乔家超市里拿来的。^好了，回头见。 ^-谢恩 %item object 215 1 206 1 %%[#]来自谢恩的礼物",
+            "elliottLetter5": "亲爱的@：^^我不会再写阅读会的细节让你感到无聊了。它们基本都差不多。^^我相信你的经历一定更令人兴奋！我迫不及待地想回来看看都发生了什么。^^在城镇之间的长途旅行中，我闭上眼睛，想象着农场，让自己更开心……我看见酒桶里摆着甜酒，炉子里燃烧着珍贵的矿石，还有我们的小厨房里有肉桂和肉豆蔻的味道。有很多东西可以享受！^^亲爱的，别在矿井里呆得太晚。里面很危险！如果你非得去……要带上足够的食物。^^——爱你的，艾利欧特 %item conversationTopic ElliottGone6 0 %%[#]我妻子的信 5" ,
+            "elliottLetter4": "在梦中，当我仰望远眺时^我凝视着阳光照耀的大海^凝视着我所走过的遥远的海岸^但时间模糊了我的记忆^^永恒的地方只有一个^我总有一天会经过那里^是在可爱的山谷里，有我的爱人在等待：^我们在池塘边的小家^^——艾利欧特 %item conversationTopic ElliottGone5 0 %%[#]我妻子的信 4" ,
+            "elliottLetter6": "亲爱的@：^^这是我回家前的最后一封信了。我的旅程十分愉快……虽然没什么十分激动人心的事情。能见到喜欢我的书的人让我很高兴，但我还是渴望回家。^^我想念我们舒适的小房子，令人满足的农活，一顿家常菜，当然最想念的，是和你一起舒适地躺在法兰绒的床单上。^^盼早日见到你！^——爱你的，艾利欧特 %item conversationTopic ElliottGone7 0 %%[#]我妻子的信 6",
+            "elliottLetter1": "亲爱的@：^^我刚到格兰普立顿开始巡回。我都忘了这座城市有多繁忙！街道上挤满了人……他们要么看起来很匆忙，要么迷茫，对周围的环境毫无感觉。我已经开始怀念鹈鹕镇了！^^我今晚在当地的一家书店开始阅读会。我必须承认，一想到要公开演讲，我就有点紧张……我的胃感觉好像被拧成了一个柔软的椒盐脆饼，蘸上了辛辣的奶酪。祝我好运！^^——爱你的，艾利欧特^^P.S. 我希望你度过了一个平静的夜晚，一个人在大房子里不要害怕！ %item conversationTopic ElliottGone2 0 %%[#]我妻子的信",
+            "elliottLetter3": "我亲爱的@：^^昨晚在祖祖城的经历十分棒！看起来是一个巨大的文学集会……我的读书会上有几十个人！^^我甚至签了几张签名……被看做知名人士让我感觉很别扭。这只是一个错觉……事实上我一点也不特别。只是你挚爱的艾利欧特，一如既往。^^现在我独自一人，在我的酒店房间，“摄入”了一顿乔家超值餐……^^这应该叫“食物”还是“可食用的物质”？^不用多想^肯定是后者^^我期待能够早点回家，希望你喜欢蟹黄糕。^^——爱你的，艾利欧特 %item conversationTopic ElliottGone4 0 %%[#]我妻子的信 3" ,
+            "elliottLetter2": "亲爱的@：^^我的第一次阅读会还不错，尽管观众比我期望的要少一些。不过，我还是卖了挺多的书，足够支付我的旅馆房间费用！（虽然虫子很多）^^过几个小时，我就要动身前往祖祖城。如果把昨天的阅读会比作热身运动的话, 接下来这一场就像真枪实弹了……^^我很想你。记住要好好吃饭！哦，还有，别忘了我剩了些蟹黄糕在冰箱里…….^——爱你的，艾利欧特 %item conversationTopic ElliottGone3 0 %%[#]我妻子的信 2" ,
+		   }
+},
+{			   
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"When": {"Language": "zh"},
+"Entries": {
+			"Sebastian": "我真的很喜欢。你咋会知道的昂？/84 227 236 575 305/谢谢，我喜欢这个。/267 614 276/……？/-81 30 -80/……我讨厌这个。/-5 2 459 195 201 240 330 -26/……谢谢。/-4/",
+		    "Alex": "昂，真棒！我超爱这个！/201 212 662 664/这东西好棒！谢谢你啊。/-5/呃……好的。谢谢你了。/16 330/你认真的吗？这是垃圾。/80/谢谢！//",//中文版特有对话
+		   }
+},
+{			   
+"Action": "EditData",
+"Target": "Data/EngagementDialogue",
+"When": {"Language": "zh"},
+"Entries": {
+		   "Sam0": "作为你的妻子，我会非常幸福， @。$l#$e#我好激动。",
+		   }
+},
+//Festivals
+{			   
+"Action": "EditData",
+"Target": "Data/Festivals/spring13",
+"When": {"Language": "zh"},
+"Entries": {
+		  "Sebastian": "我们以前有个扔臭鸡蛋环节……#$b#不过我很讨厌这种臭味，好在镇长禁止了。",
+		  "Wizard": "唔……那搭配黑骨髓的生蜥蜴蛋呢？#$h#哦对了，我感应到了来自Mod作者JayMuShui的话：%哈喽，你发现了一个彩蛋呢！",
+		  }
+},
+{			   
+"Action": "EditData",
+"Target": "Data/Festivals/spring24",
+"When": {"Language": "zh"},
+"Entries": {		  
+		  "Sebastian": "啊……我怎么有点对无聊的跳舞感兴趣呢" ,
+		  "Vincent": "我也要成为花卉女王！",
+		   }
+},
+{			   
+"Action": "EditData",
+"Target": "Data/Festivals/fall16",
+"When": {"Language": "zh"},
+"Entries": {		  
+		   "Sebastian_spouse": "嗨 @。你一定要加油哦。那...我先去陪陪老朋友山姆咯。" ,
+           "Sam_spouse": "塞巴斯蒂安还是老样子。你在节日里玩得开心吗？" ,
+           "Alex_spouse": "我正好碰上了一些老朋友……你继续，玩得开心。",
+		   "Vincent": "哞!小牛好可爱！"
+		   }
+},
+//Events
+{			   
+"Action": "EditData",
+"Target": "Data/Events/AnimalShop",
+"When": {"Language": "zh"},
+"Entries": {
+            "3900074/f Shane 2000/e 2118991/p Shane": "distantBanjo/27 14/farmer 22 15 1 Jas 30 14 2 Shane -1000 -1000 0/skippable/pause 1000/faceDirection Jas 3/pause 400/jump Jas/pause 1500/move farmer 8 0 0/faceDirection Jas 2/pause 500/speak Jas \"谢恩阿姨在畜棚里。她说…她说要我告诉你她想给你看点东西。\"/pause 500/faceDirection Jas 0/pause 500/playSound doorClose/warp Jas -1000 -1000/pause 800/move farmer 0 -1 0/playSound doorClose/warp farmer -1000 -1000/pause 1600/globalFade/viewport -2000 -2000/changeToTemporaryMap MarnieBarn false/viewport -2000 -2000/addTemporaryActor White_Chicken 16 16 8 5 2 false Animal chicken1/addTemporaryActor Blue_Chicken 16 16 8 9 3 false Animal chicken2/addTemporaryActor Blue_Chicken 16 16 7 7 1 false Animal chicken3/addTemporaryActor Blue_Chicken 16 16 14 11 3 false Animal chicken4/addTemporaryActor Blue_Chicken 16 16 9 11 2 false Animal chicken5/warp Shane 5 3/faceDirection Shane 0/animate Shane false true 500 32 33/viewport 7 3 true/pause 500/move chicken5 -1 0 2 true/pause 1000/move chicken2 3 0 1 true/pause 1500/move chicken4 0 1 2 true/pause 1000/speak Shane \"应该这样做…$6\"/pause 500/stopAnimation Shane/pause 500/faceDirection Shane 3 true/pause 50/faceDirection Shane 2/pause 1000/move Shane 0 1 2/move Shane 3 0 2/pause 1000/showFrame Shane 30/pause 500/playSound coin/showFrame Shane 29/warp chicken1 -100 -100/pause 500/showFrame Shane 28/move chicken3 0 -1 0 true/pause 1000/move chicken4 0 -1 0/pause 1000/speak Shane \"这里很适合你的母鸡居住…$8#$b#我们拥有全镇里最好的鸡蛋！$8#$b#新鲜而健康，蛋身是营养丰富的金黄色蛋黄。不像乔家那些鸡蛋苍白而恶心…$8\"/move chicken2 -1 0 2/pause 1000/move chicken3 0 1 2/emote Shane 28/pause 1500/move chicken4 -1 0 3 true/pause 500/move chicken3 1 0 1 true/move chicken2 1 0 1 true/pause 500/speak Shane \"……*叹息*……$9#$b#……你懂的，查理…我曾经想… $9#$b#一个像我这样的女孩一直徘徊在绝望的边缘…你懂我说什么吗？$9#$b#……但你和其他母鸡从现在开始将要使我保持直立…我明白的$9#$b#……怎么了…是太多压力了吗？*轻笑*$8\"/pause 500/playSound doorClose/warp Jas 3 8/move Jas 0 -1 0/move Jas 0 -3 1 true/pause 500/warp farmer 3 8/playSound doorClose/move farmer 0 -3 1 false/pause 1000/showFrame Shane 29/pause 500/move chicken2 0 -1 0 true/showFrame Shane 30/warp chicken1 8 5/playSound thudStep/pause 500/move chicken3 -1 0 3/showFrame Shane 0/faceDirection chicken3 2/pause 1000/faceDirection Shane 3/speak Shane \"喂，@……那么，你是怎么想的呢？$h\"/animate chicken1 false true 500 16 17/pause 500/animate chicken4 false true 700 16 17/advancedMove chicken2 false 0 -4 -2 0/move farmer 2 0 1/advancedMove chicken3 false -1 0 0 -2/move farmer 0 -1 1/move farmer 2 0 2/faceDirection Shane 2/speak Shane \"我的特别蓝色的母鸡们…最近这几个月我已经开始秘密地饲养它们了。$6\"/faceDirection Shane 3/speak Shane \"我…好吧，我不会永远地生活在这里，而且我想要留给贾斯一点东西。我已经在教她怎么照料它们了。$6#$b#……我只想让自己在这世上活得并不仅像是一条水蛭。我想要贡献一些东西，即使是以这样很轻微的方式。\"/move Jas 3 0 2/faceDirection Shane 2/pause 2000/showFrame Shane 19/pause 500/pause 1000/end",
+      	   }			
+},
+{			   
+"Action": "EditData",
+"Target": "Data/Events/Beach",
+"When": {"Language": "zh"},
+"Entries": {
+            "733330/f Sam 750/w sunny/t 700 1500/z winter/y 1": "ocean/-1000 -1000/farmer 40 9 2 Sam 41 18 2 Vincent 43 22 2/skippable/animate Vincent false true 500 18 19/specificTemporarySprite beachStuff/viewport 42 19 true/move farmer 0 9 1/faceDirection Sam 3/speak Sam \"嗨， @。天气不错吧？\"/faceDirection farmer 2/faceDirection Sam 2/pause 800/speak Sam \"我只是来看看我妹妹。这种天气带她出来玩玩挺不错的。\"/pause 1700/speak Sam \"我们父亲也常常在风和日丽时带我们去沙滩玩。$h\"/jump Vincent/stopAnimation Vincent/showFrame Vincent 0/pause 1000/move Vincent 0 -4 3/move Vincent -1 0 3/faceDirection Sam 1/faceDirection farmer 1/playMusic desolate/speak Vincent \"姐姐……？$u\"/pause 900/speak Vincent \"父亲还会回来吗？$s\"/emote Sam 28/showFrame Sam 34/pause 800/speak Sam \"那是当然的，文森特。父亲一做好他的事就会尽快赶回来的。$7\"/pause 600/speak Vincent \"但是我听到很多大人说……我们的部队被打得落花流水。$s\"/showFrame Sam 35/pause 1500/speak Sam \"不要相信谣言。$8\"/showFrame Sam 4/speak Sam \"你忘了父亲有多强大吗？他才不会让垃圾戈特洛士兵抓到！你别担心！$a#$b#而且别忘了还有妈妈和我在这里陪你玩。\"/playMusic ocean/speak Vincent \"好的！\"/jump Vincent/pause 1000/move Vincent 1 0 2/showFrame Sam 4 true/faceDirection Sam 2 true/move Vincent 0 4 2/animate Vincent false true 500 18 19/playSound sandyStep/pause 800/faceDirection Sam 3/pause 800/faceDirection Sam 2/faceDirection farmer 2/pause 1000/speak Sam \"老实说，我都不知道父亲会不会回来……新闻都播报了。我们的士兵伤亡惨重。$s#$b#但我又怎么能告诉文森特这些事呢？$7\"/pause 1000/question null \"#对小孩子坦白很重要。#你做得很对。不能让小孩子失去希望。\"/emote Sam 40/pause 1000/splitSpeak Sam \"你也是这样想的？$7#$b#或许你是对的……这是个残酷的世界，但是孩子们总得知道这个真相。$s~对……孩子们应该把握这个机会拥有一个快乐的童年。\"/pause 700/faceDirection Sam 3/faceDirection farmer 1/speak Sam \"对了，我有告诉你乐队开始打出名堂了吗？#$b#对！阿比盖尔是个很棒的鼓手。而塞巴斯蒂安非常重视她……$h\"/pause 500/globalFade/viewport -1000 -1000/end",
+      	   }			
+},
+{			   
+"Action": "EditData",
+"Target": "Data/Events/Saloon",    
+"When": {"Language": "zh"},
+"Entries": {
+            "195099/f Shane 2500/f Sebastian 2500/f Sam 2500/f Harvey 2500/f Alex 2500/f Elliott 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 911526/e 528052/e 9581348/e 43/e 384882/e 233104/i 446/k 195013": "playful/-1000 -1000/farmer 27 19 1 Sam 36 20 1 Sebastian 37 19 2 Harvey 39 19 2 Shane 40 17 2 Elliott 41 19 2 Alex 42 20 3/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/pause 1000/message \"出于某些原因，你决定把手放到口袋里...\"/pause 500/message \"你摸着兔子的脚，感觉如释重负...\"/move farmer 5 0 1 true/viewport 37 19 true/move false/pause 500/faceDirection Sam 3 true/faceDirection Elliott 3 true/faceDirection Harvey 3 true/faceDirection Alex 3 true/faceDirection Shane 3 true/faceDirection Sebastian 3 true/textAboveHead Sam \"嘿！\"/textAboveHead Alex \"你好吗？\"/textAboveHead Shane \"哦，你好\"/pause 2000/move farmer 3 0 1/emote farmer 32/pause 500/speak Harvey \"你出现的真及时，刚好赶上第一届鹈鹕镇8球锦标赛！\"/pause 500/speak Elliott \"别担心，我以前也没玩过。$h\"/pause 500/speak Shane \"很简单的，你只需要用力将母球打出去...$h\"/pause 500/fade/viewport -1000 -1000/pause 1500/message \"你和女孩们玩了一轮。\"/pause 1000/message \"当然，塞巴斯蒂安赢了...不过还是很有趣！\"/pause 500/end",
+            "195013/f Shane 2500/f Sebastian 2500/f Sam 2500/f Harvey 2500/f Alex 2500/f Elliott 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 911526/e 528052/e 9581348/e 43/e 384882/e 233104/k 195099": "playful/-1000 -1000/farmer 27 19 1 Sam 36 20 1 Sebastian 37 19 2 Harvey 39 19 2 Shane 40 17 2 Elliott 41 19 2 Alex 42 20 3/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/move farmer 5 0 1 true/viewport 37 19 true/move false/pause 500/startJittering/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/pause 2000/stopAnimation farmer/showFrame farmer 0/stopJittering/playSound thudStep/faceDirection farmer 3 true/showFrame farmer 7 true/startJittering/faceDirection Sam 3 true/faceDirection Elliott 3 true/faceDirection Harvey 3 true/faceDirection Alex 3 true/faceDirection Shane 3 true/faceDirection Sebastian 3 true/textAboveHead Sam \"别跑那么快！\"/textAboveHead Alex \"别动！\"/textAboveHead Shane \"站住！\"/pause 3000/stopJittering/showFrame farmer 6 true/pause 500/faceDirection farmer 1/move farmer 3 0 1/playMusic none/emote farmer 28/pause 500/speak Sam \"从没想过你一半的“女朋友”会出现在一个房间里，对吗，@?$a\"/pause 500/speak Harvey \"你欺骗了我们所有人，让我们以为我们都爱你...$s^@...我还以为你想要结婚，想要和我组建家庭...我到底哪里做错了？$s\"/pause 500/speak Shane \"我的最后一丝希望彻底被浇灭了...谢谢，@。你现在幸福吗？$s\"/pause 500/speak Alex \"@？我以为...我以为我们是“彼此的唯一”...但你只是在利用我？$s^你盯着*我*看什么？你以为我会来救你？$a\"/pause 500/speak Elliott \"这一次，我无言以对...$a\"/pause 500/playMusic wedding/speak Sam \"我们不会再忍受你的伤害了！$a^现在，我们都知道真相了！我们不会容忍这种事情！$a\"/textAboveHead Alex \"没错！\"/pause 500/speak Sebastian \"嗯？你有什么要为自己辩解的？$a\"/pause 1000/question fork1 \"#对不起...我以前做错了。#各位，冷静一下！我可以解释...\"/fork choseToExplain/pause 500/textAboveHead Alex \"当然...\"/pause 500/speak Shane \"说得好听，但我们不会给你机会解释...$a\"/pause 1000/playMusic none/speak Sam \"...我们已经决定了...对吗，伙伴们？$u\"/pause 500/speak Harvey \"...没错。$s\"/speak Elliott \"必须的。$a\"/pause 1000/jump Sam/jump Sebastian/jump Elliott/jump Shane/jump Alex/jump Harvey/pause 1000/speak Sam \"我们都要疏远你！$a\"/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/playSound slimedead/pause 2000/fade/viewport -2000 -2000/dump guys 3/end warpOut",
+            "choseToExplain": "pause 100/textAboveHead Shane \"我深表怀疑...\"/pause 500/resetVariable/question fork2 \"#你们所有人都在逼我！让我说不出“不”！#皮埃尔向我施压！他想卖出更多花束！#（开始哭）\"/pause 100/fork crying/textAboveHead Sam \"骗子！\"/textAboveHead Alex \"对，没错！\"/speak Elliott \"不要把自己的错误归咎在别人身上！你只是失去了我们的尊重...$a\"/pause 1000/faceDirection Sam 2/playMusic none/speak Sam \"...我想我们已经决定了...对吗，女孩们？$u\"/pause 500/speak Harvey \"...没错。$s\"/speak Sebastian \"必须的。$a\"/faceDirection Sam 3/pause 1000/jump Sam/jump Sebastian/jump Elliott/jump Shane/jump Alex/jump Harvey/pause 1000/jump Sam/jump Sebastian/jump Elliott/jump Shane/jump Alex/jump Harvey/pause 1000/jump Sam/jump Sebastian/jump Elliott/jump Shane/jump Alex/jump Harvey/pause 1000/speak Sam \"我们都要疏远你！$a\"/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/playSound slimedead/pause 2000/fade/viewport -2000 -2000/dump guys 4/end warpOut",
+            "crying": "pause 100/faceDirection farmer 0/emote farmer 28/pause 1000/emote Harvey 12 true/emote Sebastian 12 true/emote Shane 12 true/emote Sam 12 true/emote Elliott 12 true/emote Alex 12 true/speak Harvey \"这样做没用的！这次我们不会再同情你了！$a\"/speak Alex \"我会认为这又是在演戏...$a^一如既往...$a\"/pause 100/speak Sebastian \"你需要为自己做过的事负责...$a\"/pause 1000/faceDirection Sam 2/playMusic none/speak Sam \"...我想我们已经决定了...对吗，女孩们？$u\"/pause 500/speak Harvey \"...没错。$s\"/speak Sebastian \"必须的。$a\"/faceDirection Sam 3/pause 1000/jump Sam/jump Sebastian/jump Elliott/jump Shane/jump Alex/jump Harvey/pause 1000/jump Sam/jump Sebastian/jump Elliott/jump Shane/jump Alex/jump Harvey/pause 1000/jump Sam/jump Sebastian/jump Elliott/jump Shane/jump Alex/jump Harvey/pause 1000/speak Sam \"我们都要疏远你！$a\"/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/playSound slimedead/pause 2000/fade/viewport -2000 -2000/dump guys 4/end warpOut",
+            "wewereworried": "emote farmer 40/faceDirection Marnie 1/pause 1000/faceDirection Shane 2/emote Shane 12/speak Shane \"我是你的妻子……你应该相信我。我一直对你坦诚地告诉你我的问题。$a#$b#那个……我知道我还没从强行戒酒瘾中缓过来……但是，我在努力做到最好……而且我也健康多了。#$b#我的生活已经比以前好太多了。我已经不在阴暗的地方了……\"/pause 500/emote Marnie 20 true/emote farmer 20 true/pause 1300/faceDirection Shane 0/speak Shane \"说起来，我玩这个游戏的时候，我会专注到没心思想别的事情。当我有“冲动”的时候这确实很有帮助……\"/faceDirection Shane 2/speak Shane \"总之……我就……呃……再玩一局就回家。行吗？\"/pause 500/emote farmer 32/pause 1000/end dialogue Shane \"你们刚才进来看到我在街机前面的时候，肯定很疑惑吧！$h\"",     	   
+	       }			
+},
+{			   
+"Action": "EditData",
+"Target": "Data/Events/SebastianRoom",
+"When": {"Language": "zh"},
+"Entries": {
+            "2794460/f Sebastian 500/p Sebastian": "Hospital_Ambient/-1000 -1000/farmer 1 1 2 Sebastian 9 4 3 Robin -100 -100 2/skippable/doAction 1 3/playSound keyboardTyping/showFrame Sebastian 24/animate Sebastian false true 100 26 27 26 27 26 27 26/viewport 6 6 true/move farmer 0 4 1/move farmer 5 0 1/pause 1000/speak Sebastian \"哦，嗨。稍等一下。\"/pause 500/playSound keyboardTyping/pause 1000/question fork1 \"#她很忙……我还是走吧。#待在原地。\"/fork didntLeave/move farmer -2 0 3/speak Sebastian \"你要去哪儿？$u\"/pause 300/faceDirection farmer 1/stopAnimation Sebastian/speak Sebastian \"抱歉……我得在思路被打断之前，把这一行搞定。\"/pause 500/move farmer 2 0 1/switchEvent sebastianRoom",
+            "sebastianRoom": "resetVariable/move farmer 0 2 1/playSound mouseClick/move farmer 3 0 0/playSound mouseClick/move farmer 0 -1 0/playSound mouseClick/move farmer 0 -1 0/pause 500/faceDirection farmer 0/question fork1 \"#问问她刚刚在干什么。#称赞她房间的装饰。\"/fork decor/pause 500/stopAnimation Sebastian/speak Sebastian \"我有时候会接一些编程的零活。\"/switchEvent enterRobin",
+            "enterRobin": "pause 500/playSound mouseClick/pause 100/playSound mouseClick/pause 500/playSound Pickup_Coin15/pause 300/emote Sebastian 40/speak Sebastian \"是山姆的短信……看来她是想找我出去玩……#$b#呃，我今天不太想出门。$u\"/pause 500/playSound doorClose/warp Robin 1 1/move Robin 0 4 1/speak Robin \"啊，你好！ @。\"/faceDirection farmer 3/move Robin 4 0 1/speak Robin \"我知道你不想让我进来……但我今天遇到了阿比盖尔，她说她在找你。\"/pause 200/emote Sebastian 28/speak Sebastian \"你有没有和她说我在工作？\"/speak Robin \"说了……不过她说她可能还是要来。\"/emote Sebastian 12/speak Sebastian \"*唉*……大家都不把我的工作当回事儿。$u#$b#玛鲁在诊所工作的时候就没人去打扰她……难道大家以为我整天就是在网上闲逛吗？\"/faceDirection farmer 0 true/move Robin -4 0 0/move Robin 0 -4 0/warp Robin -100 -100/playSound doorClose/pause 500/faceDirection farmer 0/resetVariable/question fork1 \"#问问她的工作目标。#问问她为什么不想见到朋友。\"/fork noFriends/pause 500/speak Sebastian \"嗯，我是想攒钱搬家。搬到城里什么的。\"/emote Sebastian 40/speak Sebastian \"我要是上了大学，现在怎么也赚到六位数了……但我并不想进入企业，过什么勾心斗角的日子，你懂吧？#$b#看来，与其让我和人面对面相处，还是躲藏在屏幕后面要舒服得多啊。$s\"/emote Sebastian 28/pause 600/playSound mouseClick/pause 100/playSound mouseClick/pause 300/speak Sebastian \"我得继续工作了……明天之前要把这个模块完成才行。\"/animate Sebastian false true 100 24 24 24 24 24 24 24 24 24 24 25 26 27 26 27 26 27 26 25 24 24/playSound keyboardTyping/pause 500/move farmer 0 2 3/move farmer -3 0 0/move farmer 0 -2 3/move farmer -5 0 0 true/globalFade/viewport -1000 -1000/pause 1000/end",
+            "noFriends": "pause 500/emote Sebastian 28/speak Sebastian \"*唉*……我喜欢交朋友，但也需要许多时间来独处。$s#$b#山姆则正好相反……一个人待太久，会让她发疯的。#$b#也许正是因为这个，我才如此喜欢电脑……电脑充满魅力，直截了当，又很无私。在我认识的人里面，没几个有这样的品格。\"/pause 600/playSound mouseClick/pause 100/playSound mouseClick/pause 300/emote Sebastian 40/speak Sebastian \"我得继续工作了……明天之前要把这个模块完成才行。\"/pause 300/animate Sebastian false true 100 26 27/playSound keyboardTyping/pause 500/move farmer 0 2 3/move farmer -3 0 0/move farmer 0 -2 3/move farmer -5 0 0 true/globalFade/viewport -1000 -1000/pause 1000/end",
+		   }
+},
+//Dialogue
+{			   
+"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+"When": {"Language": "zh"},
+"Entries": {
+			"Sebastian": "如果运气好的话，这种天气可能会看见青蛙，他们很可爱。",
+			"Alex": "呀。这种天气不适合运动呢。$s#$e#要不然今天逛逛网店……还是为爷爷奶奶做顿饭？@ 你觉得呢。$h",
+			"Sam": "大雨掩盖了声音，现在我弹琴的声音和雨声合在一起变得好听呢。$h",
+			"Shane": "嗯……这天气让我觉得很干渴，不如@ 我们喝点吧，不不，不喝酒。 $s" ,
+			"Harvey": "嗨 @!嗯……最近在图书馆有发现什么好书吗？#$e#昂昂。那个，有点尴尬呢。昂……下次再聊？$u",
+		   }			
+},
+		   {
+"Action": "EditData",
+"Target": "Characters/Dialogue/Alex",
+"When": {"Language": "zh"},
+"Entries": {
+			"Introduction": "哦，昂。你就是那个新来的帅哥吧？不错不错。^昂，你就是新来的那个姑娘，是不是？我们一定会相处得很愉快的。我是亚力克斯。#$e#回见。",
+			"danceRejection": "不了……我想和别人跳舞。祝你好运昂",
+			"Mon": "@，你知道吗？我上高中的时候可是女子明星四分卫哦。真的。$u#$e#看到我衣服上这颗小星星了吗？这就是证明呢。",
+			"Tue": "海滩是个值得一玩的好地方，在那里还能做个日光浴。#e#你得时常晒晒太阳，要不然肤色就会变得苍白。#$e#*唉* ……真希望镇上能多些帅哥，你明白我的意思吧？$s^嗨，有空跟我去海滩玩玩啊？你有比基尼泳衣吗？" ,  
+		    "Wed_01_old#": "我还想叫你一起投投球，但你好像不怎么喜欢运动。^女孩子也应该多多锻炼，跟我练球吧。",
+			"Thu": "天气热起来了……我感觉有些喘不过气，夏天该怎么办。",
+			"Fri": "嗨，怎么啦，帅哥？^嗨，原来是@啊。你穿了新裙子吗？这就对了。#e#哦，差点忘了。今天是我做俯卧撑的日子！#e#每次我做俯卧撑，都会试着比上次多做几个。这种锻炼方法挺棒的吧？",
+			"Sat": "我的胳膊好酸啊，但对我这样的女孩子来说，这正是取得进步的标志。#e#我昨天肯定做了一千个俯卧撑。" ,  
+			"Sun": "嗨。#$e#怎么，有话要和我说吗？我有点忙呢。",
+			"Fri4": "嗨，@。很高兴你能来。#e#我敢光明正大地说我爱我奶奶！#$e#至于我爷爷嘛……#$e#虽然脾气是差了点，但是还是不讨厌我爷爷。$h",
+			"Fri8": "嗨，@。你今天挺有精神的昂。$h^嗨，@。你换了发型吗？我感觉眼前一亮呢。$h",
+			"Sat10": "我……最近很难集中注意力，不知道为什么。*紧张*" ,  
+		    "summer_1": "嗨。夏天绝对是一年中最棒的时节。#$e#现在这个时间正好，可以憧憬整个夏天呢。虽然有点热，回头见啦。",
+			"summer_Mon": "嗨，@。你怎么一副被烤焦的样子？^嗨，@。你的皮肤晒得有点黑啊。$h#$e#今年夏天我练得越多，进入职业队的把握就越大。#$e#然后你就可以和人说你认识我了。很酷吧？",
+			"summer_Tue": "要是我的发型不受男孩子欢迎，我肯定会去做头发。#$e#*唉*好害怕啊。",
+			"fall_Wed_01_old#": "你觉得男孩子会喜欢我的发型吗？^你觉得我的发型怎么样？",
+		    "fall_Wed_01_02": "没错儿。你就是眼红了。",
+			"divorced": "我还以为我们之间的关系很特殊…我可能是自作多情了*哭泣*。$s",
+			"breakUp": "你这是在给我什么……？$7#$b#呼……我知道了。好吧……嗯，看来你已经决定好了。我不会赖着不走的。$a",
+		   }
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/MarriageDialogueAlex",
+"When": {"Language": "zh"},
+"Entries": {
+		   "Indoor_Night_3": "昂……我买了些新睡衣。我觉得你可能会想知道……$l",
+		   "OneKid_0": "我还在努力适应我居家妈妈的新生活。$h",
+		   }
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sam",
+"When": {"Language": "zh"},
+"Entries": {
+		   "fall_Sat4": "我很幸运，霸占了房子里最大间的房间。#$e#也许这就是身为长女的优势吧。但是妈妈住最小的房间还是有点过意不去。",
+		   "spring_12": "我的妹妹很期待过节。她一整天都在讨论明天的彩蛋大寻宝活动。"
+		   }
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/MarriageDialogueSam",
+"When": {"Language": "zh"},
+"Entries": {
+		   "Rainy_Day_1": "你觉得塞巴斯蒂安和阿比盖尔会在一起吗？不对，她们都是女孩#$e#哈哈……我现在结婚了，所以我也想让其他人步入婚姻。",
+		   "Rainy_Night_3": "我希望文森特不会因为我不在了而感到太孤独……我觉得我要对负责，毕竟我是她姐姐。$s#$e#但是，生活变化无常……对吧？孩子们最终要学到这一点……不然成人的世界会击垮他们的。$7",
+		   "OneKid_1": "这很奇怪，但我真享受作为一名母亲！$h",
+		   "TwoKids_3": "我从没想过我会成为一个居家女人，但是我对我们在这里构筑的一切都很满意。生活很美好。$h" ,
+		   }
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"When": {"Language": "zh"},
+"Entries": {
+		   "Introduction": "昂。你是刚搬进来的，对吧？好啊。#$e#那么多地方你不选，偏偏选中了鹈鹕镇这么无聊的地方？",
+		   "danceRejection": "不……我想跟别的人跳舞，对不起了。",
+		   "Wed2": "山姆也许是我在镇上的唯一朋友，我的好闺蜜。#$e#阿比盖尔也不错，但是……$h#$e#呃……算了。",
+		   }
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+"When": {"Language": "zh"},
+"Entries": {
+		    "OneKid_0": "我还在努力适应当一名母亲。别担心，我会好好照顾%kid1的！只是……我还不太习惯。", 
+		     "Good_3": "我不经常表达，但是能成为你的妻子我很幸福。嫁给你是我做过的最好的决定。$l",
+		   }
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Shane",
+"When": {"Language": "zh"},
+"Entries": {
+		    "Mon": "昂，我不认识你。你为什么要和我说话呀？",
+		    "Mon4": "昂。如果你觉得我们初次相见时我太粗鲁的话，我道歉。#$e#我这人比较怕生呢。",
+		    "Mon10": "你有没有过这种感觉呢：整个世界都对你充满了恶意昂？",
+		    "Tue": "你走开好吗？我可什么都没有。",
+		    "Tue2": "你找我到底要干什么昂！我好讨厌你呀！",
+		    "Wed": "不行昂，我没时间和你聊天呢。",
+		    "Sat": "你为什么要来烦我昂？我想清静清静。",
+		    "Sun": "我忙着呢，你看不出来昂？" ,
+            "Sun6": "……我最近好像变胖了，想减肥了。$s" ,
+		    "Sun2": "又是你昂？跟你说过多少次了，别来烦我！$s" ,
+		    "event_room1": "嗯……这可得有个好剧本才行。也许下次再在酒吧见到艾利欧特小姐的时候，向她请教下吧。$s",
+		   }
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/MarriageDialogueShane",
+"When": {"Language": "zh"},
+"Entries": {
+		    "OneKid_3": "谢恩妈妈报到……$6#$e#哎……我已经变得又老又土了。",
+		   }
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/MarriageDialogueElliott",
+"When": {"Language": "zh"},
+"Entries": {
+		   "OneKid_3": "照顾孩子不是我的强项……但我会尽我最大的努力做个好妈妈。",
+		   "TwoKids_1": "我之前带过%kid1，我发誓我听到了“妈……妈”的声音。$h" ,
+		   }
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/MarriageDialogueHarvey",
+"When": {"Language": "zh"},
+"Entries": {
+		   "OneKid_3": "我真喜欢当母亲的感觉！$h",
+		   "summer_1": "千万别晒伤了，亲爱的！那对你的皮肤来说很危险。$8#$e#作为你的妻子和医生，你的健康和安全是我第一优先考虑的事情！",
+		   
+		   }
+},
+{		   
+"Action": "EditData",
+"Target": "Characters/Dialogue/Evelyn",
+"When": {"Language": "zh"},
+"Entries": {
+			"fall_Sat": "你们是亚历克斯的朋友吗？#$e#她有时候总担心我生病.",
+           }			
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/George",
+"When": {"Language": "zh"},
+"Entries": {
+			"Wed": "亚历克斯是我的孙女。我跟你说过吗？#$e#哈？没关系随意说。",
+			"Wed_inlaw_Alex":"现在你是我们家里的一分子了。我很高兴我的孙女嫁给了这么好的丈夫#h^两个女人怎么可以结婚呢？太不正常了……哼。可能是我“跟不上时代”了……。",
+			"Wed10_inlaw_Alex": "现在你是我们家里的一分子了……我简直太骄傲了。#h^我承认，我觉得……两个女人在一起太奇怪了。但是我知道你是个很棒的年轻人，而且我知道你们俩相爱了……我已经改变我的想法了。",
+		   }
+},
+{		   
+"Action": "EditData",
+"Target": "Characters/Dialogue/Jas",
+"When": {"Language": "zh"},
+"Entries": {
+			"Tue2": "我最好的朋友是文森特，我们经常一起玩布娃娃#h",
+			"Sun10": "你知道吗？谢恩是我的教母。她是我父母的朋友。$s#$e#……他们都去世了。*啜泣*$s",
+           }			
+},
+{		   
+"Action": "EditData",
+"Target": "Characters/Dialogue/kent",
+"When": {"Language": "zh"},
+"Entries": {
+			"Thu6": "#$1 Kent1#我4点钟就起来了……有时候我会怀疑自己能不能回到正常的生活作息上来。$k#$e#在我离开之后，山姆真的长大了。她现在是个真正的女人了。#$e#我真希望能一直陪着她。$s",
+           }			
+},
+{		   
+"Action": "EditData",
+"Target": "Characters/Dialogue/Jodi",
+"When": {"Language": "zh"},
+"Entries": {
+			"Thu6": "时间都去哪了？*唉*#$e#我还记得山姆小时候穿尿布的样子呢。她那时多可爱。$s#$e#你可别告诉她我说过这话。$h#$e#你一定很爱跟我聊天吧？",
+           }			
+},
+{		   
+"Action": "EditData",
+"Target": "Characters/Dialogue/Marnie",
+"When": {"Language": "zh"},
+"Entries": {
+			"Tue": "我的侄女谢恩已经在我这待了几个月了。#$e#不过她会帮我养鸡，所以也没什么可抱怨的。",
+           }			
+},
+{		   
+"Action": "EditData",
+"Target": "Characters/Dialogue/Maru",
+"When": {"Language": "zh"},
+"Entries": {
+			"Wed": "周二和周四我会在哈维的诊所工作。#$b#她说她喜欢和我一起工作，万一医疗器械故障了我可以帮上大忙！$h#$e#当个农夫应该很轻松吧？" ,
+            "Wed8": "我周二和周四会去哈维的诊所上班。#$e#她人很好，我和她都快成闺蜜了……" ,
+		    "summer_Tue": "不知之前有没有和你讲过，其实塞巴斯蒂安是我同父异母的姐妹。#$e#不过我们俩长相是完全不同啦。" ,
+		    "summer_Tue4": "塞巴斯蒂安从来都不和我讲话。或许她是不喜欢我吧。#$e#挺让人难过的，我之前就一直想要个姐姐，但和她却生分得很。" ,
+		   }
+},
+{		   
+"Action": "EditData",
+"Target": "Characters/Dialogue/Robin",
+"When": {"Language": "zh"},
+"Entries": {
+			"Fri": "你遇见我的女儿塞巴斯蒂安了吗？她就住在楼下。#$e#她为人害羞，但是你对她好她一定会把你当朋友的。",
+		    "Fri_inlaw_Sebastian": "我想念我的女儿小安安……她以前总是被人误解，但是我相信她。",
+		    "Fri4": "#$1 RobinSeb#我在塞巴斯蒂安的房间里发现一个烟灰缸，散发着奇怪的味道。我该不该担心？她毕竟是个女孩子呢！#$e#有时候我很担心塞巴斯蒂安……她没有多少朋友，而且对自己的未来漠不关心……#$e#我一直想跟她聊聊，但是她总是不愿意对我敞开心扉。" ,
+		    "Fri4_inlaw_Sebastian": "塞巴斯蒂安告诉我她正努力戒烟！我真为她感到骄傲。毕竟她是女孩子。",
+		   }
+},
+
+
+	]	
+}

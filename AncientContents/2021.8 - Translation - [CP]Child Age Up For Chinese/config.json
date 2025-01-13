@@ -1,0 +1,28 @@
+{  //以下数值只能更改为开（True）与关（False）
+   
+   //自动设置孩子模型
+	"Auto": "True",
+   
+   
+   ///注意注意！孩子的父母（英语）名字开头只能是小写！以免出现问题！（更改"default"这个空格，否则是默认）
+   ///名字清单（支持Stardew Valley Expanded模组的可结婚人物，法师可结婚之类的MOD，自己找找看有没有需要的人物，没有可以用其他孩子代替
+   ///英语 abigail,   alesia,  alex,      elliott, emily, haley, harvey, john, leah, lyell, maru,  olivia,  penny, raphtalia,  sam,  sandy, sebastian, shane, sophia, sorren, victor, wizard
+   ///中文 阿比盖尔，亚历西亚，亚历克斯，艾利欧特，艾米莉，海莉，哈维，  约翰，利亚， 莱尔， 马鲁，奥利维亚，潘妮，拉斐塔利亚，山姆， 桑迪，塞巴斯蒂安，谢恩，索菲亚，索伦，   维克多，法师 
+   //第一个孩子的自定义父母名字（或者你想要的立绘所对应的人物）详细看assets文件夹里面
+	"FirstChildParent": "default",
+   //第一个孩子是否有围裙（可以看图片，上面有区别）
+	"FirstChildApron": "True",
+   //第二个孩子的自定义父母名字（或者你想要的立绘所对应的人物）
+	"SecondChildParent": "default",
+   //第二个孩子是否有围裙（可以看图片，上面有区别）
+	"SecondChildApron": "True",
+   
+   //季节性服装
+	"SeasonalSet": "True",
+   ///共有11种秋装和冬装                 ，分别是black，blue，bluesky，brown，green，magenta，pink，purple，red，white，yellow
+   ///中文对照：（详细看assets文件夹里面）        黑色， 蓝色，天蓝色， 棕色，  绿色，洋红，   粉色，紫色，  红色，白色，黄色
+   //儿子的秋装和冬装
+	"MaleCoatColor": "black",
+   //女儿的秋装和冬装
+	"FemaleCoatColor": "white"
+}

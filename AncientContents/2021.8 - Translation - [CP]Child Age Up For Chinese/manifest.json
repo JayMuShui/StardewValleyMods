@@ -1,0 +1,16 @@
+{
+	"Name": "Child Age Up For Chinese",
+	"Author": "JayMushui/Alizsabeth",
+	"Description": "让可以成长的孩子成为一个可以交互的NPC的中文版ChildAgeUpForMod:ChildToNPC:ForChinese",
+	"Version": "1.2.2",
+	"UniqueID": "JayMushuiandAlizsabeth.ChildAgeUpForChinese",
+	"UpdateKeys": ["Nexus: 5879"],
+	"ContentPackFor": {
+	"UniqueID": "Pathoschild.ContentPatcher"
+  },
+	"Dependencies": [
+	{
+	"UniqueID": "Loe2run.ChildToNPC"
+    }
+  ]
+}
