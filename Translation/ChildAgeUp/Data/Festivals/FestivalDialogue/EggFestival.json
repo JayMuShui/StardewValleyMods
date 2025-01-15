@@ -1,0 +1,25 @@
+{
+//Egg Festival
+//Dialogue
+
+	"Changes": [
+
+        //FirstChild Egg Festival Dialogue
+        {
+            "LogName": "FirstChild Egg Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+            "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}":"这次找彩蛋活动，谁会是获胜者呀？$0#$b#奖品会是什么呢……？彩蛋？！*咯咯笑*$h"            }   
+        },
+        //SecondChild Egg Festival Dialogue
+        {
+            "LogName": "SecondChild Egg Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+            "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}":"这个彩蛋是我涂颜色的哦！$0#$b#很漂亮对吧？$h"            }
+        }
+
+	]
+}

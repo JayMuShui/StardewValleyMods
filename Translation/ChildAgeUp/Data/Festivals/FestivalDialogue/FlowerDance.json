@@ -1,0 +1,26 @@
+{
+    //Egg Festival
+    //Dialogue
+
+    "Changes": [
+        
+        //FirstChild Flower Festival Dialogue
+        {
+            "LogName":"FirstChild Flower Festivall Dialogue",
+            "Action":"EditData",
+            "Target":"Data/Festivals/spring24",
+            "Entries":{
+                "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}":"爸爸，快听听正在播放的这首歌，可好听啦你知道吗？$0^妈妈，快听听正在播放的这首歌，可好听啦你知道吗？$0#$b#……等我长大了，找个时间我也要去那儿跳舞！$h"
+            }
+        },
+        //SecondChild Flower Festival Dialogue
+        {
+            "LogName":"SecondChild Flower Festival Dialogue",
+            "Action":"EditData",
+            "Target":"Data/Festivals/spring24",
+            "Entries":{
+                "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}":"到处都是鲜花呀！$h#$b#那是……那是百合花吗？$h"
+            }
+        }
+    ]
+}

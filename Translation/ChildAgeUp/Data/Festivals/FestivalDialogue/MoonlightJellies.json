@@ -1,0 +1,26 @@
+{
+    //Dance of the Moonlight Jellies
+    //Dialogue
+    
+        "Changes":[
+           
+            //FirstChild Dance of the Moonlight Jellies Dialogue
+            {
+                "LogName":"FirstChild Dance of the Moonlight Jellies Dialogue",
+                "Action":"EditData",
+                "Target":"Data/Festivals/summer28",
+                "Entries":{
+                    "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}":"你知道吗？水母没有骨头、血液、大脑和心脏哦。$0#$b#我是从图书馆的一本书里读到的呢。我是不是很聪明呀？$h"
+                }
+            },
+            //SecondChild Dance of the Moonlight Jellies Dialogue
+            {
+                "LogName":"SecondChild Dance of the Moonlight Jellies Dialogue",
+                "Action":"EditData",
+                "Target":"Data/Festivals/summer28",
+                "Entries":{
+                    "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}":"终于，我可以看到那些水母啦！$h#$b#它们肯定非常漂亮哦。$h"
+                }
+            }
+        ]
+}

@@ -1,0 +1,234 @@
+{
+    "Changes": [
+        //Tastes
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {
+                    "Name": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+                    "LovedTags": [
+                        "Cotton Candy",
+                        "Ice Cream Sandwich"
+                    ],
+                    "LikedTags": [
+                        "Sweet"
+                    ],
+                    "DislikedTags": [
+                        "Kale Smoothie",
+                        "Black Licorice"
+                    ]
+                },
+                "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {
+                    "Name": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+                    "LovedTags": [
+                        "Cotton Candy",
+                        "Ice Cream Sandwich"
+                    ],
+                    "LikedTags": [
+                        "Sweet"
+                    ],
+                    "DislikedTags": [
+                        "Kale Smoothie",
+                        "Black Licorice"
+                    ]
+                }
+            }
+        },
+        //Reactions FirstChild
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {
+                    "NPCName": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+                    "Reactions": [
+                        {
+                            "Tag": "horror",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "这部电影很吓人嘛？我真的不太喜欢恐怖电影……让我感到非常害怕……$3"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/shake {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 3000",
+                                    "Text": "我能捂住眼睛吗？感觉真的很可怕……不想再看了……$2"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "我不想再看一次恐怖电影了。它们会让我做噩梦。下次我们能看些别的吗？$2"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "comedy",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "我们今天要看什么电影？我太激动了！会是一部能让我笑个不停的很有趣的电影吗？"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "哈哈，太有趣了，真的很搞笑！$1"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "哇！这部电影太有趣了！我从来没有笑的这么大声。谢谢你带我来看这部喜剧电影！$1"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "我太激动了！我迫不及待想看看角色们会做出什么惊人的事情！$1"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "哇！这个场景太棒了！$1"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "谢谢你带我来看电影！我们下次一定要再来！$1"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "*",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "这里也有抓娃娃机！我想玩一下！$1"
+                                },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "谢谢你带我来看电影！$1"
+                                }
+                            },
+                            "ID": "reaction_0"
+                        }
+                    ]
+                },
+
+                //Reactions SecondChild
+                "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {
+                    "NPCName": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+                    "Reactions": [
+                        {
+                                "Tag":"horror",
+                                "Response":"dislike",
+                                "Whitelist":[],
+                                "SpecialResponses":{
+                                    "BeforeMovie":{
+                                        "ResponsePoint":null,
+                                        "Script":"",
+                                        "Text":"我真的不想看恐怖电影……太吓人了。$3"
+                                    },
+                                    "DuringMovie":{
+                                        "ResponsePoint":null,
+                                        "Script":"/shake {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 3000",
+                                        "Text":"我真的好害怕！那些可怕的声音和场景让我的心跳的好快！$2"
+                                    },
+                                    "AfterMovie":{
+                                        "ResponsePoint":null,
+                                        "Script":"",
+                                        "Text":"我非常害怕。下次我们能看点别的吗？我不想再看这个了。$2"
+                                    }
+                                },
+                                "ID":"reaction_1"
+                            },
+                            {
+                                "Tag":"comedy",
+                                "Response":"love",
+                                "Whitelist":[],
+                                "SpecialResponses":{
+                                    "BeforeMovie":{
+                                        "ResponsePoint":null,
+                                        "Script":"",
+                                        "Text":"准备好零食了吗？我可不想错过在看电影时吃零食！"
+                                    },
+                                    "DuringMovie":{
+                                        "ResponsePoint":null,
+                                        "Script":"",
+                                        "Text":"哈哈！我现在笑得好开心呀！看看这个场景！$1"
+                                    },
+                                    "AfterMovie":{
+                                        "ResponsePoint":null,
+                                        "Script":"",
+                                        "Text":"我笑得肚子疼啦！这部电影太有趣啦！$1"
+                                    }
+                                },
+                                "ID":"reaction_2"
+                            },
+                            {
+                                "Tag":"spring_movie_1",
+                                "Response":"love",
+                                "Whitelist":[],
+                                "SpecialResponses":{
+                                    "BeforeMovie":{
+                                        "ResponsePoint":null,
+                                        "Script":"",
+                                        "Text":"我不想错过在看电影时吃零食哦！$5"
+                                    },
+                                    "DuringMovie":{
+                                        "ResponsePoint":null,
+                                        "Script":"",
+                                        "Text":"哇！看这个！这太酷了！我都不想移开视线啦！$1"
+                                    },
+                                    "AfterMovie":{
+                                        "ResponsePoint":null,
+                                        "Script":"",
+                                        "Text":"谢谢你邀请我看电影！爱你mua！$้h"
+                                    }
+                                },
+                                "ID":"reaction_3"
+                            },
+                            {
+                                "Tag":"*",
+                                "Response":"like",
+                                "Whitelist":[],
+                                "SpecialResponses":{
+                                    "BeforeMovie":{
+                                        "ResponsePoint":null,
+                                        "Script":"",
+                                        "Text":"这里有一只鸟！那是哪种鸟呀？"
+                                    },
+                                    "DuringMovie":null,
+                                    "AfterMovie":{
+                                        "ResponsePoint":null,
+                                        "Script":"",
+                                        "Text":"谢谢你邀请我看电影！$้1"
+                                    }
+                                },
+                                "ID":"reaction_0"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,215 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "FirstChild Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "assets/dialogue/dialogue1.json"
+		},
+
+		//SecondChild
+		//LoadBaseSecondChild
+		{
+			"LogName": "SecondChild Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "assets/dialogue/Dialogue2.json"
+		},
+
+
+		//EditDialogue
+		//FirstChild
+		{
+			"LogName": "FirstChild Dialogue 3 16",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+			"3_2": "爸爸，明天潘妮小姐要教我关于 {{Random:植物, 语法, 宇宙, 昆虫周期, 数学 | Subject1}} 的知识。$0^妈妈，明天潘妮小姐要教我关于 {{Random:植物, 语法, 宇宙, 昆虫周期, 数学 | Subject1}} 的知识。$0#$b#我觉得这 {{Random:会很有趣$h, 也许有趣$0}}。",
+			"16_2": "爸爸，明天潘妮小姐要教我关于 {{Random:动物, 人体, 色彩与艺术, 水循环, 海底 | Subject2}} 的知识。$0^妈妈，明天潘妮小姐要教我关于 {{Random:动物, 人体, 色彩与艺术, 水循环, 海底 | Subject2}} 的知识。$0#$b#我希望它 {{Random:会很有趣$u, 不难$0}}。"			}
+		},
+		{
+			"LogName": "FirstChild Dialogue Mon",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+			"Mon":"昨晚，我做了一个美梦。$0#$b#我进入了一个 {{Random:糖果, 甜点, 巧克力, 棉花糖, 玩具}} 世界！$h#$e#...$0"			},
+			"When": { "DayOfWeek": "Monday" }
+		},
+		{
+			"LogName": "FirstChild Dialogue Wed",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+			"Wed":"%昨天在学校过得怎么样？#$b#{{Random:功课很难……$s, 很有趣。$h, 一般般。$u, 还不错$0。}}"			},
+			"When": { "DayOfWeek": "Wednesday" }
+		},
+		{
+			"LogName":"FirstChild Dialogue Thu",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries":{
+				"Thu":"你有没有看到过{{Random:彩虹, 可爱的瓢虫, 蹦蹦跳跳的松鼠, 绿青蛙, 一群小蜜蜂}}呀？$0#$b#我昨天就看到了一个呢！$0#$e#...$0"
+			},
+			"When":{
+				"DayOfWeek":"Thursday"
+			}
+		},
+		{
+			"LogName":"FirstChild Dialogue Fri",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries":{
+				"Fri":"我今天晚上想吃{{Random:香喷喷的意大利面条, 美味的烤鱼, 脆脆的脆皮鲈鱼, 好吃的土豆煎饼, 诱人的三文鱼晚餐, 可口的生鱼片}}哦！$h"
+			},
+			"When":{
+				"DayOfWeek":"Friday"
+			}
+		},
+		{
+			"LogName":"FirstChild Dialogue Sun",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries":{
+				"Sun":"你知道{{Random:神奇的传奇鱼, 漂亮的五彩碎片, 厉害的银河剑, 奇怪的岩浆帽}}是什么吗？$u#$b#我好想看一看呢！$0#$e#...$0"
+			},
+			"When":{
+				"DayOfWeek":"Sunday"
+			}
+		},
+		{
+			"LogName":"FirstChild Rainy",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/rainy",
+			"Entries":{
+				"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}":"我可喜欢下雨啦！$h#$b#{{Random:但是我不喜欢暴风雨，它太可怕啦。$u, 因为下雨天凉凉的，好舒服哦。$0, 今天早上的雨下得可大啦！$0}}#$e#...$u"
+			},
+			"When":{
+				"Weather":"Rain, Storm"
+			}
+		},
+		{
+			"LogName":"FirstChild Dialogue Name",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries":{
+				"Tue":"你为什么要给我取这样的名字呀？$u#$e#虽然我不知道为啥，但我还是很喜欢这个名字呢！$h"
+			}
+		},
+		{
+			"LogName":"FirstChild Dialogue penny married",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries":{
+				"3_2":"爸爸，明天妈妈要教我关于{{Random:漂亮的植物, 有趣的语法, 神秘的宇宙, 奇妙的昆虫周期, 难学的数学 |Subject1}}的知识啦。$0^妈妈，明天妈妈要教我关于{{Random:漂亮的植物, 有趣的语法, 神秘的宇宙, 奇妙的昆虫周期, 难学的数学 | Subject1}}的知识哦。$0#$b#我觉得它{{Random:超级有趣呢$h, 也许会很有意思哦$0}}。",
+				"16_2":"爸爸，明天妈妈要教我关于{{Random:可爱的动物, 我们的身体, 漂亮的色彩和艺术, 神奇的水循环, 神秘的海底 |Subject2}}的知识啦。$0^妈妈，明天妈妈要教我关于{{Random:可爱的动物, 我们的身体, 漂亮的色彩和艺术, 神奇的水循环, 神秘的海底 | Subject2}}的知识哦。$0#$b#我希望它{{Random:会很有趣呢$u, 不会太难学哦$0}}。"
+			},
+			"When":{
+				"Relationship:Penny":"Married"
+			}
+		},
+		{
+			"LogName":"FirstChild Dialogue sam married",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries":{
+				"SamHouse_3_5":"乔迪奶奶可好了呢！$0#$b#文森特长得跟她好像呀。$h"
+			},
+			"When":{
+				"Relationship:Sam":"Married"
+			}
+		},
+		
+		//EditDialogue
+		//SecondChild
+		{
+			"LogName":"SecondChild Rainy",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/rainy",
+			"Entries":{
+				"{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}":"{{Random:我不喜欢暴风雨，它太讨厌啦。$u, 我都烦死这下雨天啦。$u, 我好希望明天是个好天气呀，这样我就能出去玩啦。$0}}#$e#...$0"
+			},
+			"When":{
+				"Weather":"Rain, Storm"
+			}
+		},
+		{
+			"LogName":"SecondChild Dialogue 3 16",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries":{
+				"3_2":"爸爸，明天潘妮小姐要教我关于{{Random:漂亮的植物, 有趣的语法, 神秘的宇宙, 奇妙的昆虫 Cycle, 难学的数学 | Subject1}}的知识啦。$0^妈妈，明天潘妮小姐要教我关于{{Random:漂亮的植物, 有趣的语法, 神秘的宇宙, 奇妙的昆虫 Cycle, 难学的数学 |Subject1}}的知识哦。$0#$b#...但是我想学点别的东西呢。$h#$e#...$0",
+				"16_2":"爸爸，明天潘妮小姐要教我关于{{Random:可爱的动物, 我们的身体, 漂亮的色彩和艺术, 神奇的水循环, 神秘的海底 | Subject2}}的知识啦。$0^妈妈，明天潘妮小姐要教我关于{{Random:可爱的动物, 我们的身体, 漂亮的色彩和艺术, 神奇的水循环, 海底 |Subject2}}的知识哦。$0#$b#我真是{{Random:兴奋极啦$h, 有点担心呢$s, 变得懒懒的啦$u, 开心得不得了$h}}。"
+			}
+		},
+		{
+			"LogName":"SecondChild Dialogue Mon",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries":{
+				"Mon":"你有没有看到过{{Random:漂亮的蝴蝶, 可爱的瓢虫, 像爱心一样的云朵, 胖胖的青蛙, 大大的熊}}呀？$0#$b#我昨天就看到了一个呢！$h#$e#...$u"
+			},
+			"When":{
+				"DayOfWeek":"Monday"
+			}
+		},
+		{
+			"LogName":"SecondChild Dialogue Tue",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries":{
+				"Tue":"我今天晚上想吃{{Random:美味的煎蛋卷, 好吃的奶酪花椰菜, 有趣的鲤鱼惊喜, 香喷喷的炸鱿鱼, 甜甜的冰淇淋, 好吃的土豆煎饼}}呢！$h"
+			},
+			"When":{
+				"DayOfWeek":"Tuesday"
+			}
+		},
+		{
+			"LogName":"SecondChild Dialogue Wed",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries":{
+				"Wed":"%昨天你学到了什么呀？#$b#{{Random:嗯……我学了一些东西，可是我现在有点记不清啦。$s, 呃……我好像不记得我学了啥啦，哈哈。$h, 虽然有点难，但是我觉得我学到了有用的东西哦。$h, 我学到了一些我很喜欢的东西呢！$h}}#$e#...$u"
+			},
+			"When":{
+				"DayOfWeek":"Wednesday"
+			}
+		},
+		{
+			"LogName":"SecondChild Dialogue Name",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries":{
+				"summer_1_2":"今天呀，贾斯会给我买冰淇淋哦。$h#$b#希望是真的啦。$0",
+				"Fri":"你为什么要给我取这样的名字呀？$u#$b#虽然我不知道为啥，但我还是很喜欢这个名字呢！$h",
+				"Sat":"今天我们要去镇上的游乐场玩啦。$h#$b#...不过别担心，潘妮小姐会照顾我们的哦。$0",
+				"Town_45_57":"嗨，爸爸！$h^嗨，妈妈！$h#$b#你知道皮埃尔的商店里有好多零食在卖呢！$0"
+			}
+		},
+		{
+			"LogName":"SecondChild Dialogue penny married",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries":{
+				"3_2":"爸爸，明天妈妈要教我关于{{Random:漂亮的植物, 有趣的语法, 神秘的宇宙, 奇妙的昆虫 Cycle, 难学的数学 | Subject1}}的知识啦。$0^妈妈，明天妈妈要教我关于{{Random:漂亮的植物, 有趣的语法, 神秘的宇宙, 奇妙的昆虫 Cycle, 难学的数学 |Subject1}}的知识哦。$0#$b#...但是我想学点别的东西呢。$h#$e#...$0",
+				"16_2":"爸爸，明天妈妈要教我关于{{Random:可爱的动物, 我们的身体, 漂亮的色彩和艺术, 神奇的水循环, 神秘的海底 | Subject2}}的知识啦。$0^妈妈，明天妈妈要教我关于{{Random:可爱的动物, 我们的身体, 漂亮的色彩和艺术, 神奇的水循环, 海底 |Subject2}}的知识哦。$0#$b#我真是{{Random:兴奋极啦$h, 有点担心呢$s, 变得懒懒的啦$u, 开心得不得了$h}}。",
+				"Sat":"今天我们要去镇上的游乐场玩啦。$h#$b#...不过别担心，妈妈会照顾我们的哦。$0",
+				"Town_17_14":"别担心啦，妈妈会照顾我们的哦。"
+			},
+			"When":{
+				"Relationship:Penny":"Married"
+			}
+		},
+		{
+			"LogName":"SecondChild Dialogue sam married",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries":{
+				"SamHouse_2_5":"乔迪奶奶邀请我们来这里吃东西啦。$0#$b#...我们答应啦，而且食物好吃极了呢！$h"
+			},
+			"When":{
+				"Relationship:Sam":"Married"
+			}
+		}
+	]
+}

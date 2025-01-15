@@ -1,0 +1,36 @@
+//作者Post所说2.0.1版本中此项文件存在bug，会在她下次更新，本次已在汉化时修复
+{
+  "Changes": [
+    {
+      "LogName": "Child's FestivalDialogue",
+      "Action": "Include",
+      "FromFile": "Data/Festivals/FestivalDialogue/EggFestival.json, Data/Festivals/FestivalDialogue/FlowerDance.json, Data/Festivals/FestivalDialogue/IceFestival.json, Data/Festivals/FestivalDialogue/Luau.json, Data/Festivals/FestivalDialogue/MoonlightJellies.json, Data/Festivals/FestivalDialogue/SpiritEve.json, Data/Festivals/FestivalDialogue/SVFair.json, Data/Festivals/FestivalDialogue/WinterStar.json"
+    },
+    {
+      "LogName": "Child's FestivalPositions",
+      "Action": "Include",
+      "FromFile": "Data/Festivals/FestivalPositions/EggFestival.json, Data/Festivals/FestivalPositions/FlowerDance.json, Data/Festivals/FestivalPositions/IceFestival.json, Data/Festivals/FestivalPositions/Luau.json, Data/Festivals/FestivalPositions/MoonlightJellies.json, Data/Festivals/FestivalPositions/SpiritEve.json, Data/Festivals/FestivalPositions/SVFair.json, Data/Festivals/FestivalPositions/WinterStar.json"
+    },
+
+    //Ridgeside Festivals
+    {
+      "LogName": "Child's Gathering",
+      "Action": "Include",
+      "FromFile": "Data/Festivals/FestivalPositions/Gathering.json",
+      //"FromFile": "Data/Festivals/FestivalDialogue/Gathering.json, Data/Festivals/FestivalPositions/Gathering.json",
+      "When": {
+        "HasMod|contains=Rafseazz.RSVCP": true
+      }
+    },
+    {
+      "LogName": "Child's EmberOfResolutions",
+      "Action": "Include",
+      "FromFile": " Data/Festivals/FestivalPositions/EmberOfResolutions.json",
+       //"FromFile": "Data/Festivals/FestivalDialogue/EmberOfResolutions.json, Data/Festivals/FestivalPositions/EmberOfResolutions.json",
+      "When": {
+        "HasMod|contains=Rafseazz.RSVCP": true
+      }
+    },
+    
+  ]
+}

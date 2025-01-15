@@ -1,0 +1,27 @@
+{
+//Stardew Valley Fair
+//Dialogue
+
+	"Changes": [
+        
+        //FirstChild Stardew Valley Fair Dialogue
+        {
+            "LogName": "FirstChild Stardew Valley Fair Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}": "Will these animals feel uncomfortable having to stay in a cage like this for a long time?$u#$b#...or is it true that they didn't think at all?$0"
+            }
+        },
+        //SecondChild Stardew Valley Fair Dialogue
+        {
+            "LogName": "SecondChild Stardew Valley Fair Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}": "These birds are so colorful and beautiful.$0#$b#I think we should raise one of them... Is that a good idea?$h"
+            }
+        }
+
+	]
+}

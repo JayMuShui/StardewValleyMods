@@ -1,0 +1,25 @@
+{
+    //Festival of Ice
+    //Dialogue
+    
+        "Changes":[
+            //FirstChild Festival of Ice Dialogue
+            {
+                "LogName":"FirstChild Festival of Ice Dialogue",
+                "Action":"EditData",
+                "Target":"Data/Festivals/winter8",
+                "Entries":{
+                    "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}":"如果我们进到这些冰屋里，就会变得暖和啦。$0#$b#……你准备好参加钓鱼比赛了吗？$h"
+                }
+            },
+            //SecondChild Festival of Ice Dialogue
+            {
+                "LogName":"SecondChild Festival of Ice Dialogue",
+                "Action":"EditData",
+                "Target":"Data/Festivals/winter8",
+                "Entries":{
+                    "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}":"看那个戴着眼镜的梨子！$0#$b#我好想知道是谁做的呀！$h"
+                }
+            }
+        ]
+}

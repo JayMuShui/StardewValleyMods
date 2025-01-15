@@ -1,0 +1,26 @@
+{
+    //Luau Festival
+    //Dialogue
+    
+        "Changes":[
+           
+            //FirstChild Luau Festival Dialogue
+            {
+                "LogName":"FirstChild Luau Festival Dialogue",
+                "Action":"EditData",
+                "Target":"Data/Festivals/summer11",
+                "Entries":{
+                    "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}":"这汤会是什么味道呀？$0#$b#我希望它不辣哦……$s"
+                }
+            },
+            //SecondChild Luau Festival Dialogue
+            {
+                "LogName":"SecondChild Luau Festival Dialogue",
+                "Action":"EditData",
+                "Target":"Data/Festivals/summer11",
+                "Entries":{
+                    "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}":"看这个好大的汤锅呀！$h#$b#如果你一个人把它吃光，你肯定会吃撑爆的……*咯咯笑*$h"
+                }
+            }
+        ]
+}

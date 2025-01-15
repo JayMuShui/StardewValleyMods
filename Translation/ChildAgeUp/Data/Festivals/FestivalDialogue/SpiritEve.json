@@ -1,0 +1,27 @@
+{
+    //Spirit's Eve
+    //Dialogue
+            
+        "Changes": [
+            
+            //FirstChild Spirit's Eve Dialogue
+            {
+                "LogName":"FirstChild Spirit's Eve Dialogue",
+                "Action":"EditData",
+                "Target":"Data/Festivals/fall27",
+                "Entries":{
+                    "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}":"为什么这条路看起来像我上次走过的呀？$u"
+                }
+            },
+            //SecondChild Spirit's Eve Dialogue
+            {
+                "LogName":"SecondChild Spirit's Eve Dialogue",
+                "Action":"EditData",
+                "Target":"Data/Festivals/fall27",
+                "Entries":{
+                    "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}":"那么，我们接下来该走哪条路呢？$s"
+                }
+            }
+    
+        ]
+}

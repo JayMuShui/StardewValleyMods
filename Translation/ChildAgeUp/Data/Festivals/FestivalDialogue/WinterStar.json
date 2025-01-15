@@ -1,0 +1,27 @@
+{
+    //Feast of the Winter Star
+    //Dialogue
+    
+        "Changes":[
+        
+            //FirstChild Feast of the Winter Star Dialogue
+            {
+                "LogName":"FirstChild Feast of the Winter Star Dialogue",
+                "Action":"EditData",
+                "Target":"Data/Festivals/winter25",
+                "Entries":{
+                    "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}":"我真的好喜欢冬日星盛宴呀，因为有美味的食物，装饰也很漂亮，而且最重要的是……$0#$b#……我会收到一份礼物呢！$h"
+                }
+            },
+            //SecondChild Feast of the Winter Star Dialogue
+            {
+                "LogName":"SecondChild Feast of the Winter Star Dialogue",
+                "Action":"EditData",
+                "Target":"Data/Festivals/winter25",
+                "Entries":{
+                    "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}":"爸爸！看树下那一堆礼物，好多呀！$h^妈妈！看树下那一堆礼物，好多呀！$h#$b#哪个盒子是给我的礼物呀？$h"
+                }
+            }
+    
+        ]
+}

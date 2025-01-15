@@ -1,0 +1,21 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "FirstChildGiftTastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}": "哇塞！你怎么知道我喜欢这个！我爱死它了！/107 184 206 220 221 223 233 373 394 434 575/谢谢呢，我很喜欢。/88 350 376 424 440 591 -7 -2/...啥？/-12 -15 -16 -8 -19 -22 -74 -28/不不不，我很讨厌这个！！！/-21 -20 -81/谢谢!/-14 -75 -79 -80 -2 -4 -5 -6 -25 -26 -27/"
+			}
+		},
+		{
+			"LogName": "SecondChildGiftTastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}": "爸爸，我爱这个！^妈妈我爱这个！/107 184 206 220 221 223 233 373 394 434 575/谢谢呢，我很喜欢！/88 350 376 424 440 591 -7 -2/额...?/-12 -15 -16 -8 -19 -22 -74 -28/不，我不想要这个.../-21 -20 -81/谢谢爸爸！^谢谢妈妈！/-14 -75 -79 -80 -2 -4 -5 -6 -25 -26 -27/"
+			}
+		}
+	]
+}

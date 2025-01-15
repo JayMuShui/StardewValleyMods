@@ -1,0 +1,54 @@
+{
+	"Format": "2.4.0",
+	"ConfigSchema": {
+		"Auto": {
+			"AllowValues": "True, False",
+			"Default": "True"
+		},
+		"FirstChildParent": {
+			"AllowValues": "default, abigail, alesia, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, olivia, penny, raphtalia, sam, sandy, sebastian, shane, sophia, sorren, victor, wizard, ian, jeric, june, kenneth, philip, sean, shiro, alissa, blair, corine, flor, kiarra, maddie, ysabelle, anton, bryle, daia, faye, irene, jio, paula, zayne",
+			"Description":"在这选择第一个孩子遗传为谁的样子，default即为默认伴侣的样子",
+			"Default": "default"
+		},
+		"FirstChildApron": {
+			"AllowValues": "True, False",
+			"Default": "False"
+		},
+		"SecondChildParent": {
+			"AllowValues": "default, abigail, alesia, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, olivia, penny, raphtalia, sam, sandy, sebastian, shane, sophia, sorren, victor, wizard, ian, jeric, june, kenneth, philip, sean, shiro, alissa, blair, corine, flor, kiarra, maddie, ysabelle, anton, bryle, daia, faye, irene, jio, paula, zayne",
+			"Description":"在这选择第二个孩子遗传为谁的样子，default即为默认伴侣的样子",
+			"Default": "default"
+		},
+		"SecondChildApron": {
+			"AllowValues": "True, False",
+			"Default": "True"
+		},
+		"SeasonalSet": {
+			"AllowValues": "True, False",
+			"Default": "True"
+		},
+		"MaleCoatColor": {
+			"AllowValues": "black, blue, bluesky, brown, green, magenta, pink, purple, red, white, yellow",
+			"Default": "black"
+		},
+		"FemaleCoatColor": {
+			"AllowValues": "black, blue, bluesky, brown, green, magenta, pink, purple, red, white, yellow",
+			"Default": "white"
+		}
+
+	},
+
+
+	"Changes": [
+		{
+			"LogName": "NPCData",
+			"Action": "Include",
+			"FromFile": "Data/NPCData/Animations.json, Data/NPCData/Dialogue.json, Data/NPCData/GiftTasteData.json, Data/NPCData/MovieData.json, Data/NPCData/Portraits.json, Data/NPCData/Schedules.json, Data/NPCData/Sprites.json, Data/NPCData/Strings.json"
+		},
+		{
+			"LogName": "NPCData",
+			"Action": "Include",
+			"FromFile": "Data/Festivals/FestivalData.json"
+		}
+	]
+}

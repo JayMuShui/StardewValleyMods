@@ -1,0 +1,55 @@
+{
+    "Changes": [
+        //Load
+        {
+            "LogName": "FirstChild School",
+            "Action": "Load",
+            "Target": "Strings/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+            "FromFile": "Assets/dialogue/School1.json"
+        },
+        {
+            "LogName": "SecondChild School",
+            "Action": "Load",
+            "Target": "Strings/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+            "FromFile": "Assets/dialogue/School2.json"
+        },
+        
+
+        //Edit Strings schedules
+        //FirstChild
+        {
+            "LogName": "FirstChild Strings schedules",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+            "Entries": {
+                "rain.000": "%你的孩子真正安静地读书哦，请不要打扰人家呢~",
+                "rain.001": "嘿嘿，你猜猜我在画什么呢？$0#$b#...你看，我在画我们一家!$h"
+            }
+        },
+        {
+            "LogName": "FirstChild Strings schedules alex married",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+            "Entries": {
+                "spring.000": "爸爸告诉我他那条小狗叫做小灰。$0 #$b#我只见过小灰一次诶$s"
+            },
+            "When": {
+                "Relationship:Alex": "Married"
+            }
+        },
+        //Edit Strings schedules
+        //SecondChild
+        {
+            "LogName": "SecondChild Strings schedules",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+            "Entries": {
+               "spring.000": "为什么小灰不出来呢？$0#$b#我想再次见到小灰。$s",
+               "fall.000": "这个地方只对孩子们开放，你进不去。$u",
+               "winter.000": "下面有怪物，文森特说的。$u#$b#……但为什么你会想去下面看看呢？$s",
+               "rain.000": "%你的孩子正在读一本书。",
+               "rain.001": "这里有好多颜色啊！$h#$b#爸爸，你最喜欢什么颜色？$0^妈妈，你最喜欢什么颜色？$0"  
+            }
+        }
+    ]
+}
