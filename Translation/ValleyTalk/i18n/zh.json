@@ -1,5 +1,4 @@
-//由 JayMuShui 翻译，翻译发布时间为2025.2.1，原版本时间截止2025.1.18
-
+//由 JayMuShui 翻译，翻译发布时间为2025.2.2，原版本时间截止2025.2.1（不是哥们上一版翻译发布不到2小时就更新了）
 {
 "cc_Bus_Repaired": "通往卡利科沙漠的巴士已修好啦",
 "cc_Boulder_Removed": "山上湖泊中那块闪闪发光的巨石已经被移除掉了",
@@ -22,6 +21,7 @@
 "coreFarmerGender": "农场主的性别为 ${男性^女性}。除了经营农场之外，${他^她} 还是一名热衷于探索的冒险家，具备典型的 ${男性^女性} 兴趣爱好与行事习惯。",
 "coreRoommates": "农场主和 {{Name}} 是室友，而且是感情深厚的非恋爱关系好友。他们一同居住在农场主从祖父那里继承而来的农场中。在遇到农场主之前，{{Name}} 一直住在下水道，成为室友后便从那里搬到了农场。",
 "coreMarried": "农场主与 {{Name}} 喜结连理。他们共同生活在农场主从祖父处继承的农场里。{{Name}} 在遇到农场主之前就已生活在星露谷，结婚之后便从 {{Pronoun}} 原来的住处搬到了这个农场。",
+"coreMarriedSince":  "{{Name}} 和农场主在 {{RelativeDate}} 前结为夫妻。",
 "coreGenderReferences": "${若农场主为男性，对话可能会有所体现，比如依据具体背景，恰当地称他为“男人”“男孩”或者“丈夫”，提及典型的男性服装选择或常参与的活动。^若农场主为女性，对话同样会有所体现，例如根据背景情况，恰当地称她为“女人”“女孩”或者“妻子”，提及典型的女性服装选择或活动。}$",
 "preoccupation": "在农场主到来之前，{{Name}} 一直在琢磨 {{preoccupation}} 这件事。要是没有其他更紧急的事情需要讨论，{{Name}} 很可能会聊起这个话题。",
 "openNpcsHeading": "其他非玩家角色：",
@@ -47,6 +47,7 @@
 "spousesMarriedToOne": "农场主与 {{spouseList}} 喜结良缘。{{spouseList}} 和农场主一同居住在农场主从祖父那里继承的农场里。{{Name}} 和 {{spouseList}} 都曾在星露谷生活，并且在农场主遇见他们二人中的任何一人之前，就已经彼此认识。",
 "spouseEngaged": "农场主与 {{engagedTo}} 订婚啦。婚礼将在 {{weddingDays}} 天后举行，农场主满心期待着与对方共同开启未来的美好生活。{{engagedTo}} 没有住在农场。",
 "spousePoly": "{{Name}} 知晓农场主有多角恋的生活方式，并且对此表示接受。",
+"spousePolyView": "{{Name}} 选择加入农场主与其他配偶的多角恋关系，认为这是正常的，尽管知道其他人可能不这么想。{{Name}} 将婚姻中的每一段关系都视为个人婚姻，可能会经历嫉妒或其他常见摩擦，但仍致力于维系这段关系。",
 "spouseRoommatesWithOthers": "除了 {{Name}}，农场主还和 {{roommateList}} 是室友。{{Name}}、农场主以及 {{roommateReference}} 以纯粹的朋友关系，一同居住在农场主从祖父那里继承的农场里。",
 "spouseRoommateWithMany": "农场主和 {{roommateList}} 是室友。农场主的所有室友都和农场主一起住在农场主从祖父那里继承的农场里。",
 "spouseRoommateWithOne": "农场主有 {{roommateList}} 这位室友。{{roommateList}} 和农场主一起住在农场主从祖父那里继承的农场里。",
@@ -139,6 +140,7 @@
 "locationGeneric": "农场主和 {{Name}} 在 {{Location}}。",
 "locationOutro": "对话发生的地点对台词可能有着重要的影响。",
 "locationTravelling": "{{Name}} 正要前往 {{destination}}。",
+"locationFuturePlans": "今天晚些时候，{{Name}} 计划去：{{Locations}}。",
 "generalBeingRoommates": "作为室友",
 "generalTheMarriage": "这段婚姻",
 "marriageSentimentGood": "{{Name}} 对 {{marriageOrRoommate}} 感觉非常满意，心里满是积极的想法。",
@@ -274,6 +276,7 @@
 "configModels": "供应商{{Provider}}上可用的模型有：\n{{models}}",
 "modelCheckApiKey": "未提供API密钥。请检查配置。",
 "modelCheckModelName": "未提供模型名称。通常这是必需的，请检查配置。",
+"modelCheckValidModelName": "可以获取模型名称且名称有效但是不可用。可能原因：模型非文本生成模型、指定的端点不安全或API密钥错误（某些供应商）。",
 "modelCheckCantGenerate": "可以获取模型名称，但无法生成对话。请检查模型名称是否配置正确。",
 "modelCheckInsecure": "指定的服务器地址未使用安全连接（https）。这可能会阻止文本生成。",
 "modelCheckGetNames": "无法获取模型名称或生成对话。请检查API密钥是否正确输入。",
