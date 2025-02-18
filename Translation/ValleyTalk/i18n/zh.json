@@ -1,4 +1,4 @@
-//由 JayMuShui 翻译，翻译发布时间为2025.2.2，原版本时间截止2025.2.1（不是哥们上一版翻译发布不到2小时就更新了）
+//由 JayMuShui 翻译，翻译发布时间为2025.2.19，原版本时间截止2025.2.12
 {
 "cc_Bus_Repaired": "通往卡利科沙漠的巴士已修好啦",
 "cc_Boulder_Removed": "山上湖泊中那块闪闪发光的巨石已经被移除掉了",
@@ -77,6 +77,7 @@
 "giftMustIncludeReaction": "对话中一定要包含 {{Name}} 对这份礼物的反应。",
 "giftBirthday": "因为今天是 {{Name}} 的生日，所以 {{Name}} 把这份礼物当作生日礼物，觉得这证明农场主心里记着自己的生日呢。在反应中要提到生日，而且对于 {{Name}} 喜欢或讨厌的礼物，会产生更强烈的感受。",
 "giftOutro": "对话要简洁明了，不要问那些期待农场主回应的问题。",
+"giftGiving": "{{Name}} 出人意料地给农场主送上了一份 {{GiftName}}。对话中必须说明 {{Name}} 送这份礼物的缘由。",
 "specialDatesSpring1": "今天是一年的第一天，也是春天的起始日。",
 "specialDatesSpring12": "今天是复活节的前一天。",
 "specialDatesSpring23": "今天是花舞节的前夕。",
@@ -168,7 +169,8 @@
 "childrenSingle": "农场主和 {{Name}} 有一个孩子。",
 "childrenDescriptionBoy": "是个男孩，名叫 {{Name}}，{{Age}} 岁了。",
 "childrenDescriptionGirl": "是个女孩，名叫 {{Name}}，{{Age}} 岁了。",
-"childrenPregnant": "农场主和 {{Name}} 再过 {{daysUntilBirth}} 天就要迎来一个新生命啦。",
+"childrenPregnant.npcMale": "农民和 {{Name}} 正在收养一个孩子，这个孩子将在 {{daysUntilBirth}} 天后到来。或者农民怀孕了，{{Name}} 和农民期待着在 {{daysUntilBirth}} 天后迎来一个孩子。",
+"childrenPregnant.npcFemale": "{{Name}} 怀孕了，{{Name}} 和农民期待着在 {{daysUntilBirth}} 天后迎来一个孩子。或者农民和 {{Name}} 正在收养一个孩子，这个孩子将在 {{daysUntilBirth}} 天后到来。",
 "generalBoy": "男孩",
 "generalGirl": "女孩",
 "weatherLightning": "外面正下着一场带着闪电和降雨的暴风雨呢。",
