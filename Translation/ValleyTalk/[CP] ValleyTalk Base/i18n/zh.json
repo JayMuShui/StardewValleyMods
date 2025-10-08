@@ -1,4 +1,4 @@
-//由 JayMuShui 翻译，翻译发布时间为2025.06.06，原版本时间截止2025.05.31
+//由 JayMuShui 翻译，翻译发布时间为2025.10.08，原版本时间截止2025.09.28
 {
 "cc_Bus_Repaired": "通往卡利科沙漠的巴士已修好啦",
 "cc_Boulder_Removed": "山上湖泊中那块闪闪发光的巨石已经被移除掉了",
@@ -34,6 +34,7 @@
 "otherNpcsOutro": "编写对话时应考虑到这些其他村民的存在，除了对农场主说话之外，也可以提及他们或者直接与他们交流。",
 "currentConversationHeading": "当前对话情况：",
 "currentConversationIntro": "农夫和 {{Name}} 正在交谈中。对话应是这场交谈的延续，并且要基于之前的内容展开。不应重复之前的台词。不要以 “{{Name}}: ” 作为新行的开头，那只是对话历史的一部分。之前的对话内容是：",
+"currentConversationJustSpoke": "农夫和 {{Name}} 刚刚交谈过。对话应考虑到他们最近的交流。",
 "generalFarmerLabel": "农场主",
 "generalGayMale": "男同性恋",
 "generalHeterosexual": "异性恋",
@@ -293,5 +294,11 @@
 "seasonCrops": "重要作物有",
 "seasonForage": "可采集物品有",
 "biographyRelationships": "人际关系",
-"biographyPersonality": "个性"
+"biographyPersonality": "个性",
+"trinketsFairyBox": "农场主身边总有一只小仙女跟着，悬浮在空中，观察着一切。{{Name}} 见过几次后，这只仙女也就变得稀松平常了。",
+"trinketsCompanionFrog": "农场主身后总有一只青蛙跟着，一蹦一跳地尾随农场主，观察着一切。{{Name}} 见过几次后，这只青蛙也就变得稀松平常了。",
+"trinketsCompanionParrot": "农场主身边总有一只鹦鹉跟着，在农场主肩膀附近扑棱着翅膀。{{Name}} 见过几次后，这只鹦鹉也就变得稀松平常了。",
+"uiClearHistoryConfirm": "你确定要清除 {{Name}} 的对话历史吗？这无法撤销。",
+"uiClearHistoryAllConfirm": "你确定要清除所有村民的对话历史吗？这无法撤销。",
+"uiClearHover": "清除 {{Name}} 的对话历史（[Shift] 键清除所有）"
 }

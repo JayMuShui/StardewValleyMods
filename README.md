@@ -6,7 +6,7 @@
 # 经手翻译的MOD
 
 ## ValleyTalk 
-[🔗Translation Link](Translation/ValleyTalk/i18n/zh.json)
+[🔗Translation Link](Translation/ValleyTalk/[CP]%20ValleyTalk%20Base/i18n/zh.json)
 
 ## Child Age Up 稚子岁月长
 [🔗Translation Link](Translation/ChildAgeUp)
